@@ -10,3 +10,64 @@ h4{
 h2{
     color: red;
 }
+
+/* class selector examples css */
+.heading1{
+    color: black;
+    background-color: red;
+}
+.heading2{
+    color: red;
+    background-color: black;
+}
+.para{
+    color: blue;
+    
+}
+
+
+#head1{
+    color: seagreen;
+
+}
+
+.head_index{
+    color: blueviolet;
+}
+#head_about{
+    color: brown;
+    background: black;
+}
+.head_size{
+    font-size: 50px;
+    color:blue;
+}
+
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+
+.t_decor_underline{
+    text-decoration: overline;
+}
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_line_through{
+    text-decoration: line-through;
+}
+.t_indent{
+    text-indent: 150px;
+}
