@@ -71,3 +71,109 @@ h2{
 .t_indent{
     text-indent: 150px;
 }
+
+
+.t_letter_space{
+    letter-spacing: 150px;
+}
+.t_word_space{
+    word-spacing: 80px;
+}
+._para_line_height{
+    line-height: 27px
+}
+.bg_color{
+    background-color: azure;
+    background-image: url("/images/animal.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 80px;
+    padding: 40px;
+    margin: 40px;
+    
+}
+
+.box{
+    width: 250px;
+    height: 150px;
+    border: 5px solid red;
+    background-color: gray;
+    font-size: 20px;
+    margin: 10px;
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.box4{
+    position: sticky;
+    top: 30px
+}
+.box5{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.flex-item{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 150px;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.flex-container{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.img_border{
+    border: 4px solid red;
+}
+.img_boder2{
+    border: 10px groove blue;
+}
+.img_border3{
+    border: 14px solid;
+    border-color: red black;
+}
+
+.B_model{
+        border: 4px solid red;
+        padding-top: 20px 60px;
+        margin: 100px;
+    
+    }
+
+.b_img_model{
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 50px;
+}
+
+
+.f_family1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f_family2{
+     font-family: cursive;
+     font-size: 30px;
+}
+.f_weight{
+    font-weight: 200px;
+    font-size: 100px;
+}
