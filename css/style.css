@@ -131,6 +131,9 @@ h1{
     font-size: 40px;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .flex-container{
@@ -176,4 +179,86 @@ h1{
 .f_weight{
     font-weight: 200px;
     font-size: 100px;
+}
+
+h1:hover{
+    color: blue;
+    background-color: black;
+}
+.heading_2:hover{
+    color: blueviolet;
+
+}
+h6:active{
+    color: brown;
+    font-size: 60px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: black;
+    color: azure;
+    border: 4px solid red;
+}
+
+a:visited{
+    color: red;
+
+}
+a:visited{
+    color: black;
+}
+
+
+P::first-letter{
+    color: brown;
+    font-size: 40px;
+}
+P::first-line{
+    color: blue;
+}
+::selection{
+    color: red;
+    background-color: blue;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+    font-weight: 30px;
+    margin-bottom: 20px;
+    transition: transform 1s linear 500ms;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box1:hover{
+    transform: translate(125px,120px);
+}
+.box2:hover{
+    transform: translateX(40px);
+}
+.box3:hover{
+    transform: translateY(150px);
+}
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: skew(20deg);
+}
+.box6:hover{
+    transform: scale(2);
+}
+.box7:hover{
+    transform: rotate(40deg) scale(1.3) translateY(50px);
 }
